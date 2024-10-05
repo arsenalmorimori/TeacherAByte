@@ -27,7 +27,7 @@ const handleSubmit = () => {
     } else if(username.trim() === "dev" || message.trim() === "dev"){
 
         window.location.href = "teacherPanel.html";
-
+return;
     }
     // Log the values to console
     console.log("Submitted:", { username, message, selectedTeacher });
