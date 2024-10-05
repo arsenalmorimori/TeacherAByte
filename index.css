@@ -1,0 +1,51 @@
+:root{
+    --purple: #b53eff;
+    --dark: #100e1f;
+    --white: #f3f3f3;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'Cascadia';
+    src: url(../../assets/Cascadia.ttf);
+}@font-face {
+    font-family: 'CODE';
+    src: url(../../assets/CODELight.otf);
+}@font-face {
+    font-family: 'Michroma';
+    src: url(../../assets/Michroma-Regular.ttf);
+}
+
+
+.headDiv{
+    height: 100vh;    
+    background-color: var(--dark);
+}
+
+.textBox{
+    width: 450px;
+    background-color: #201d31;
+    height: 30px;
+    color: var(--white);
+    border: solid;
+    border-color: var(--purple);
+    border-radius: 10px;
+    margin: 10px;
+    border-width: 1px;
+    padding: 20px;
+}
+.textBox2{
+    height: 290px;
+}
+#submitButton{
+    width: 150px;
+    height: 50px;
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    background-color: var(--purple);
+    color: var(--white);
+}

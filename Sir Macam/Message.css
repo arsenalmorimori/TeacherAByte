@@ -1,0 +1,70 @@
+:root{
+    --purple: #b53eff;
+    --dark: #100e1f;
+    --white: #f3f3f3;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'Cascadia';
+    src: url(../asset/Cascadia.ttf);
+}@font-face {
+    font-family: 'CODE';
+    src:url(../asset/CODELight.otf);
+}@font-face {
+    font-family: 'Michroma';
+    src: url(../asset/Michroma-Regular.ttf);
+}
+
+
+
+.HeadDiv {
+    height: auto;
+    width: auto;
+    background-color: var(--dark);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.userName{
+    color: var(--purple);
+    font-family: 'Cascadia';
+    font-size: 40px;
+    text-align: center;
+}
+.message{
+    margin-top: -10px;
+    width: auto;
+    color: var(--purple);
+    font-family: 'Cascadia';
+    font-size: 17px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+hr{
+ border-color: #b53eff;
+}
+
+@media screen and (max-width:622px) {
+    .userName{
+        color: var(--purple);
+        font-family: 'Cascadia';
+        font-size: 30px;
+        text-align: center;
+    }
+    .message{
+        margin-top: -10px;
+        width: auto;
+        color: var(--purple);
+        font-family: 'Cascadia';
+        font-size: 15px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
