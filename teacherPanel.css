@@ -1,0 +1,22 @@
+:root{
+    --purple: #b53eff;
+    --dark: #100e1f;
+    --white: #f3f3f3;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--dark);
+}
+
+@font-face {
+    font-family: 'Cascadia';
+    src: url(asset/Cascadia.ttf);
+}
+.text{
+    color: var(--purple);
+    font-family: 'Cascadia';
+    font-size: 30px;
+    width: 50%;
+    height: 20%;
+}

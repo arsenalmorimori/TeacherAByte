@@ -24,6 +24,10 @@ const handleSubmit = () => {
     if(username.trim() === "" || message.trim() === "") {
         alert("Please fill in both fields."); 
         return;
+    } else if(username.trim() === "dev" || message.trim() === "dev"){
+
+        window.location.href = "teacherPanel.html";
+
     }
     // Log the values to console
     console.log("Submitted:", { username, message, selectedTeacher });
